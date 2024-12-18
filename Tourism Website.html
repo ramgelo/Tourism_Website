@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore the World</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 2rem;
+        }
+        .pamphlet {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 1rem;
+            width: 300px;
+            text-align: center;
+            overflow: hidden;
+            transition: transform 0.3s;
+            cursor: pointer;
+        }
+        .pamphlet:hover {
+            transform: scale(1.05);
+        }
+        .pamphlet img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .pamphlet h3 {
+            padding: 1rem 0;
+            background-color: #4CAF50;
+            color: white;
+            margin: 0;
+        }
+        .pamphlet p {
+            padding: 0 1rem 1rem;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore the World</h1>
+        <p>Discover the culture, traditions, and beauty of these amazing countries</p>
+    </header>
+    <div class="container">
+        <!-- Philippines Pamphlet -->
+        <div class="pamphlet" onclick="window.location.href='file:///C:/Users/agote/Downloads/Philippines.html'">
+            <img src="https://images.unsplash.com/photo-1504619679259-7db48eb87a0b?q=80&w=1575&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Philippines">
+            <h3>Philippines</h3>
+            <p>Experience the vibrant culture, unique traditions, and breathtaking scenery of the Philippines.</p>
+        </div>
+        <!-- Japan Pamphlet -->
+        <div class="pamphlet" onclick="window.location.href='file:///C:/Users/agote/Downloads/Japan.html'">
+            <img src="https://plus.unsplash.com/premium_photo-1690749740487-01bbb8e51e71?q=80&w=1530&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Japan">
+            <h3>Japan</h3>
+            <p>Immerse yourself in the rich heritage, stunning landscapes, and modern wonders of Japan.</p>
+        </div>
+        <!-- Cambodia Pamphlet -->
+        <div class="pamphlet" onclick="window.location.href='file:///C:/Users/agote/Downloads/Cambodia.html'">
+            <img src="https://images.unsplash.com/photo-1582414004129-a955c6087f5e?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cambodia">
+            <h3>Cambodia</h3>
+            <p>Discover the ancient temples, vibrant culture, and natural beauty of Cambodia.</p>
+        </div>
+    </div>
+</body>
+</html>
